@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	background-image: url('munti2.jpg');
+    background-size: cover;
+	max-width: 100%;
+    height: auto;
+}
+
+h2{
+	text-align: center;
+	color:white;
+	background-color:black;
+	padding:10px;
+
+}
+
+.menu{
+	list-style:none;
+	width:60%;
+	margin:auto;
+	text-align:center;
+	padding: 20px 0 20px 0;
+	font-family: "Times New Roman", Georgia, Serif;
+	
+}
+
+.menu > li {
+    display: inline-block;
+	padding-right: 50px;
+}
+
+.menu > li > a{
+	text-decoration:none;
+	color: white;
+}
+
+.menu > li > a:hover{
+	color: #c1c1c1;
+}
+
+.container{
+	width:50%;
+	margin:auto;
+	background-color: #CCC;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+h2{
+    text-align:center;	
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table{
+	align:center;
+}
+th, td{
+	padding:5px;
+	text-align:center;
+}
+th{background-color:#ff1a1a}
+tr:nth-child(even){
+	background-color: #00ff80;
+}
+tr:nth-child(odd){
+	background-color:white:
+}
+td:hover{
+	background-color:red;
+}
+
+form{
+	font-family: "Times New Roman", Georgia, Serif;
+	margin:5px 5px 5px 5px;
+}
+
+label{
+	float:left;
+	width:150px;
+	text-align:right;
+	padding-right:12px;
+	margin-top: 12px;
+	clear:left;
+}
+input, textarea, select{
+	margin-top:12px;
+}
+
+#buton{ 
+	margin-left: 150px;
+	margin-bottom: 20px;
+}

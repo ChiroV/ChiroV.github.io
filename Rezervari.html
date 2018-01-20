@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Rezervari:</title>
+<link rel="stylesheet" type="text/css" href="Rezervari.css"/>
+</head>
+<body>
+<ul class="menu">
+  <li><a href="Bun Venit.html">Acasa</a></li>
+  <li><a href="Contact.html">Contact<a></li>
+  <li><a href="Rezervari.html">Rezervari<a></li>
+</ul>
+<div class="container">
+<h2>Lista de preturi:</h2>
+<table align="center">
+<tr>
+    <th>Persoane</th>
+	<th>Tipul camerei</th>
+	<th>Pret pe noapte</th>
+</tr>
+<tr>
+    <td>1</td>
+	<td>Single</td>
+	<td>70 Ron</td>
+</tr>
+<tr>
+    <td>2</td>
+	<td>Suita</td>
+	<td>140 Ron</td>
+</tr>
+<tr>
+    <td>2</td>
+	<td>Camera Dubla</td>
+	<td>140 Ron</td>
+</tr>
+<tr>
+    <td>3</td>
+	<td>Camera Tripla</td>
+	<td>210 Ron</td>
+</tr>
+</table>
+<br/>
+
+<h2> Rezervari:</h2><br/>
+<form action="proces.php" method="POST">
+
+
+<div>
+	<label>Nume:</label>
+	<input type="text" name="nume">
+</div>
+<div>
+	<label>Telefon:</label>
+	<input type="number" name="telefon">
+</div>
+
+<br/>
+
+<div>
+	<label>Email:</label>
+	<input type="email" name="email">
+</div>
+<br/>
+<div>
+	<label>Nr. de persoane:</label>
+	<input type="number" name="nr" max="3" min="0">
+</div>
+<div>
+	<label>Ziua sosirii:</label>
+	<input type="date" name="sosire">
+</div>
+<div>
+	<label>Ziua plecarii:</label>
+	<input type="date" name="plecare">
+</div>
+
+<br/>
+
+<div>
+	<label>Tipul camerei:</label>
+	<select name="camera">
+	<option value="Single">Single</option>
+	<option value="Suita">Suita</option>
+	<option value="Camera Dubla">Camera Dubla</option>
+	<option value="Camera Tripla">Camera Tripla</option>
+	</select>
+</div>
+
+<br/>
+
+<div>
+ <label>Mentiuni:</label>
+ <textarea name="mentiuni" rows="5"></textarea>
+</div>
+
+<br/>
+
+<input id="buton" type="submit" value="Trimite">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+	background-image: url('munti.jpg');
+    background-size: cover;
+	max-width: 100%;
+    height: auto;
+}
+	img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+	color:white;
+	background-color:black;
+	padding:20px;;
+}
+
+p{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.menu{
+	list-style:none;
+	width:60%;
+	margin:auto;
+	text-align:center;
+	padding: 20px 0 20px 0;
+	font-family: "Times New Roman", Georgia, Serif;
+	
+}
+
+.menu > li {
+    display: inline-block;
+	padding-right: 50px;
+}
+
+.menu > li > a{
+	text-decoration:none;
+	color: white;
+}
+
+.menu > li > a:hover{
+	color: #c1c1c1;
+}
+
+.informatii{
+	width:81.9%;
+	margin:auto;
+	background-color:#f5f5dc;
+	padding:10px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+img{align=middle}
